@@ -1,12 +1,4 @@
 bootstrap_go_package {
-    name: "soong-nortical",
-    pkgPath: "nortical/soong/android",
-    srcs: [
-        "android/variable.go",
-    ],
-}
-
-bootstrap_go_package {
     name: "soong-nortical-generator",
     pkgPath: "nortical/soong/generator",
     deps: [
