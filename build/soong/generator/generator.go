@@ -29,7 +29,7 @@ import (
 )
 
 func init() {
-	android.RegisterModuleType("miku_generator", GeneratorFactory)
+	android.RegisterModuleType("nortical_generator", GeneratorFactory)
 
 	pctx.HostBinToolVariable("sboxCmd", "sbox")
 }
