@@ -89,8 +89,5 @@ PRODUCT_COPY_FILES += \
     system/core/rootdir/init.zygote64.rc:system/etc/init/hw/init.zygote64.rc \
     system/core/rootdir/init.zygote64_32.rc:system/etc/init/hw/init.zygote64_32.rc
 
-# Put en_US first in the list, so make it default.
-PRODUCT_LOCALES := zh_rCN
-
 # Enforce RRO targets
 PRODUCT_ENFORCE_RRO_TARGETS := *~
