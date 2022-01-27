@@ -35,6 +35,10 @@ PRODUCT_PACKAGES += \
     Tag \
     TimeZoneUpdater
 
+# Kyokai
+PRODUCT_PACKAGES += \
+    Kyokai
+
 # OTA support
 PRODUCT_PACKAGES += \
     recovery-refresh \
