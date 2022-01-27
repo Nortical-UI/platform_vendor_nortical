@@ -33,7 +33,10 @@ PRODUCT_PACKAGES += \
     PartnerBookmarksProvider \
     Stk \
     Tag \
-    TimeZoneUpdater
+    TimeZoneUpdater \
+    Dialer \
+    Messeging \
+    Camera2
 
 # Kyokai
 PRODUCT_PACKAGES += \
