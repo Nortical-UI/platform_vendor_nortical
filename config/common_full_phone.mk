@@ -36,7 +36,10 @@ PRODUCT_PACKAGES += \
     TimeZoneUpdater \
     Dialer \
     Messeging \
-    Camera2
+    Camera2 \
+    ThemePicker \
+    Gboard \
+    Jelly
 
 # Kyokai
 PRODUCT_PACKAGES += \
