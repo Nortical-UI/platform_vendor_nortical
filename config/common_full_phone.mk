@@ -39,7 +39,8 @@ PRODUCT_PACKAGES += \
     Camera2 \
     ThemePicker \
     Gboard \
-    Bromite
+    Bromite \
+    Messaging
 
 # Kyokai
 PRODUCT_PACKAGES += \
