@@ -23,3 +23,11 @@ $(call inherit-product, vendor/nortical/config/overlay.mk)
 
 # Inherit from our kernel/header generator
 $(call inherit-product, vendor/nortical/config/BoardConfigNortical.mk)
+
+# Screen resolution
+TARGET_SCREEN_WIDTH ?= 1080
+TARGET_SCREEN_HEIGHT ?= 1920
+
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    vendor/nortical/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
