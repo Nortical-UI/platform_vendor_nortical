@@ -28,6 +28,10 @@ $(call inherit-product, vendor/nortical/config/BoardConfigNortical.mk)
 TARGET_SCREEN_WIDTH ?= 1080
 TARGET_SCREEN_HEIGHT ?= 1920
 
+# Applications
+PRODUCT_PACKAGES += \
+    Calculator 
+
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/nortical/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
