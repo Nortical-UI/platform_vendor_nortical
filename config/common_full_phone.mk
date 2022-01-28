@@ -39,7 +39,7 @@ PRODUCT_PACKAGES += \
     Camera2 \
     ThemePicker \
     Gboard \
-    Jelly
+    Bromite
 
 # Kyokai
 PRODUCT_PACKAGES += \
