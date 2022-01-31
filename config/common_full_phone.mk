@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     Gboard \
     Bromite \
-    Messaging
+    messaging
 
 # Kyokai
 PRODUCT_PACKAGES += \
