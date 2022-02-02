@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Vendor overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/nortical/overlay
+# Common overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/nortical/overlay/common
 
