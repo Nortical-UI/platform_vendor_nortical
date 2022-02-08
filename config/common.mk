@@ -21,6 +21,9 @@ $(call inherit-product, vendor/nortical/config/versioning.mk)
 # Inherit from our overlay
 $(call inherit-product, vendor/nortical/config/overlay.mk)
 
+# Inherit from our themes
+$(call inherit-product, vendor/nortical/config/themes.mk)
+
 # Inherit from our kernel/header generator
 $(call inherit-product, vendor/nortical/config/BoardConfigNortical.mk)
 
